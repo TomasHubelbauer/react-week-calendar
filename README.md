@@ -9,3 +9,15 @@ Another point is to avoid using a big number of DOM nodes. There are existing ca
 and this is my attempt to do better or learn why it is not possible for me to do better than what's available.
 
 - [ ] Show some code
+
+## Features
+
+- Zero dependencies
+- [ ] Virtualized when overflowing
+
+## Questions
+
+- [ ] Start with a div per slot or collapse neighboring divs of the same time?
+  - Div per slot is easy because we can style the individual cells for like borders
+  - Collapsed divs need an alternative solution for borders, but would result in much smaller DOM
+  - Probably prototype both and see how it turns out
